@@ -1,0 +1,6 @@
+CREATE DATABASE tododb;
+USE tododb;
+CREATE TABLE tasks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    task_name VARCHAR(50) NOT NULL
+);
